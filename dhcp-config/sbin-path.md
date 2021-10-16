@@ -36,8 +36,6 @@ echo $PATH
 > Os caminhos no $PATH são separados com **:** e cada caminho atribuído a essa variável deve estar completo, por exemplo: se você possui o caminho **/sbin** e **/sbin/etc** e deseja incoporar esses dois diretórios ao $PATH deve incluir eles de maneira completa: **_PATH="$PATH:/sbin:/sbin/etc"_**
 
 
-# Continuem...
-
 
 [//]: # (Esses são links de referência usados no corpo desta MD e são removidos quando o processador de remarcação faz seu trabalho. Não há necessidade de aplicar alguma formatação aos [] pois eles não são renderizados. Créditos: http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
