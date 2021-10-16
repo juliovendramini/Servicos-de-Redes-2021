@@ -1,4 +1,4 @@
-# Configuração Servidor DHCP
+# Como incluir novos caminhos a variável $PATH
 
 ## Atribuir o diretório _/sbin_ a variável PATH do sistema
 
