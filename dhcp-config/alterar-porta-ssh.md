@@ -7,7 +7,7 @@ Primeiro abra o arquivo de configuração SSH:
 ```
 nano /etc/ssh/sshd_config
 ```
-Você encontrará um arquivo praticamente todo comentado  logo no início também é possivel ver a configuração da porta comentada, o que segnifica que o SSH está utilizando a porta default 22, para alterar essa configuração você pode por exemplo incluir uma nova linha com o texto
+Você encontrará um arquivo praticamente todo comentado  logo no início também é possivel ver a configuração da porta comentada, o que significa que o SSH está utilizando a porta default 22, para alterar essa configuração você pode por exemplo incluir uma nova linha com o texto:
 ```
 Port 8080
 ```
