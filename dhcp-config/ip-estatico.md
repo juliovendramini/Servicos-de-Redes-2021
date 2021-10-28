@@ -29,5 +29,5 @@ iface enps011 inet static
 
 
 `
-Para o exemplo acima a interface de rede a qual atribuímos um IP Estático foi a enps011, você deverá adaptar esse trecho conforme sua interface,
+Para o exemplo acima a interface de rede a qual atribuímos um IP Estático foi a enps011, você deverá adaptar esse trecho conforme sua interface.
 `
