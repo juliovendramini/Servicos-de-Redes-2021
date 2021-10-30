@@ -1,7 +1,7 @@
 # Método 01 - Terminal 
 ## 1. Acessar terminal da sua máquina 
 Configura se sua máquina já possui o serviço SSH habilitado, caso não possua você deverá instalar antes de executar esses passos.
-Aqui está um tutorial para Linux: [Instanlando SSH](https://github.com/juliovendramini/Servicos-de-Redes-2021/blob/main/dhcp-config/Instalando-SSH.md)
+Aqui está um tutorial para Linux: [Instalando SSH](https://github.com/juliovendramini/Servicos-de-Redes-2021/blob/main/dhcp-config/Instalando-SSH.md)
 ## 2. Digitar o comando:
 >ssh [usuário da máquina DE LÁ]@[IP/DNS] -p [Porta]
 ### Caso o (-p [porta]) não for preenchida e você não tiver alterado as predefinições do serviço SSH ele por padrão irá utilizar a porta 22
