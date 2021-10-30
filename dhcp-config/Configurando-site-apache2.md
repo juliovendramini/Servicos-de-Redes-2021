@@ -16,7 +16,7 @@ cd /etc/apache2/sites-available/
 ```
 Edite o arquivo padrão de configuração:
 ```
-nano nano 000-default.conf
+nano 000-default.conf
 ```
 Altere o DocumentRoot para apontar para apontar pro seu diretório:
 `
