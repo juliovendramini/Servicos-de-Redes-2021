@@ -1,0 +1,12 @@
+1.Primeiro Utilize os comando:
+  *sudo apt-get install software-properties-common dirmngr apt-transport-https
+  *sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
+  
+2.Após isso adicione o repositorio com o comando:
+sudo add-apt-repository 'deb [arch=amd64] https://espejito.fder.edu.uy/mariadb/repo/10.5/debian buster main'
+
+3.De um sudo apt-get update e logo após instale o mariadb server com o comando:
+    *sudo apt-get install mariadb-server -y
+    
+4.Com o banco de dados mariadb instalado.Agora execute o comando sudo mysql_secure_installation responda as perguntas que vão aparecer no terminal e pronto.
+    
