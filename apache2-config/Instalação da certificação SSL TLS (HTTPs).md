@@ -18,28 +18,28 @@ Nessa instalação, usaremos o certbot, que é um bot construido com python pela
 
 1. Inserir um email para a chegada dos logs e erros.
 
-![Untitled](Instalac%CC%A7a%CC%83o%20da%20certificac%CC%A7a%CC%83o%20SSL%20TLS%20(HTTPs)%2044ed22493a37456991b9148a5d94559c/Untitled.png)
+![Untitled](assets/Untitled.png)
 
 1. Concordar com os passos, digitando "**a**" e, logo em seguida, "**y**".
 
-![Untitled](Instalac%CC%A7a%CC%83o%20da%20certificac%CC%A7a%CC%83o%20SSL%20TLS%20(HTTPs)%2044ed22493a37456991b9148a5d94559c/Untitled%201.png)
+![Untitled](assets/Untitled%201.png)
 
 1. Nesse passo, o certbot deve listar todos os domínios configurados no servidor, perguntando quais o usuário deseja instalar as certificações.
     
     Para instalar em todos os domínios, é só deixar em branco.
     
-    ![Untitled](Instalac%CC%A7a%CC%83o%20da%20certificac%CC%A7a%CC%83o%20SSL%20TLS%20(HTTPs)%2044ed22493a37456991b9148a5d94559c/Untitled%202.png)
+    ![Untitled](assets/Untitled%202.png)
     
 
 1. O Último passo é somente forcar o uso do HTTPs, digitando "**2**".
 
-![Untitled](Instalac%CC%A7a%CC%83o%20da%20certificac%CC%A7a%CC%83o%20SSL%20TLS%20(HTTPs)%2044ed22493a37456991b9148a5d94559c/Untitled%203.png)
+![Untitled](assets/Untitled%203.png)
 
 1. Pronto, certificações instaladas e HTTPs funcionando
 
-![Untitled](Instalac%CC%A7a%CC%83o%20da%20certificac%CC%A7a%CC%83o%20SSL%20TLS%20(HTTPs)%2044ed22493a37456991b9148a5d94559c/Untitled%204.png)
+![Untitled](assets/Untitled%204.png)
 
-![Untitled](Instalac%CC%A7a%CC%83o%20da%20certificac%CC%A7a%CC%83o%20SSL%20TLS%20(HTTPs)%2044ed22493a37456991b9148a5d94559c/Untitled%205.png)
+![Untitled](assets/Untitled%205.png)
 
 1. Para renovar a certificação automaticamente a cada 3 meses, digite o seguinte comando
 
