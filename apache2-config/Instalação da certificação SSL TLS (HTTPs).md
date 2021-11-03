@@ -14,7 +14,7 @@ Nessa instalação, usaremos o certbot, que é um bot construido com python pela
 
 1. Instalar o certbot:
 
-**apt-get install certbot python-certbot-apache**
+**apt-get install certbot python3-certbot-apache**
 
 1. Inserir um email para a chegada dos logs e erros.
 
