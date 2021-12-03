@@ -1,4 +1,4 @@
-IPTables é o nome da ferramenta da interface do usuário, que permite a criação de regras de firewall e Nat.
+## IPTables é o nome da ferramenta da interface do usuário, que permite a criação de regras de firewall e Nat.
 
 Principais comandos do IPTables
 Substituindo uma regra:
