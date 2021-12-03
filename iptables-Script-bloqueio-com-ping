@@ -1,0 +1,32 @@
+#!/bin/bash
+#a politica padrão de entrada deve ser DROP
+regraExiste=0
+#tento apagar regras repetidas se existir...
+iptables -D INPUT -p tcp --dport 22222 -j ACCEPT
+iptables -D INPUT -p tcp --dport 22222 -j ACCEPT
+iptables -D INPUT -p tcp --dport 22222 -j ACCEPT
+iptables -D INPUT -p tcp --dport 22222 -j ACCEPT
+iptables -D INPUT -p tcp --dport 22222 -j ACCEPT
+iptables -D INPUT -p tcp --dport 22222 -j ACCEPT
+iptables -D INPUT -p tcp --dport 22222 -j ACCEPT
+while [ 1=1 ]
+do
+        tail -1 /var/log/syslog | grep "PROTO=ICMP" | grep "LEN=132"
+        if [ $? -eq 0 ]
+        then
+                if [ $regraExiste -eq 0 ]
+                then
+                        iptables -A INPUT -p tcp --dport 22222 -j ACCEPT
+                        echo "Porta liberada\n"
+                        regraExiste=1
+                fi
+        fi
+        tail -1 /var/log/syslog | grep "PROTO=ICMP" | grep "LEN=128"
+        if [ $? -eq 0 ]
+        then
+                iptables -D INPUT -p tcp --dport 22222 -j ACCEPT
+                echo "Porta bloqueada\n"
+                regraExiste=0
+        fi
+        sleep 2;
+done
