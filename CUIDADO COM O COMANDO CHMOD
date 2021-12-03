@@ -1,0 +1,5 @@
+APENAS UM RELATO 
+Antes de usar o comando chmod verificque em qual arquivo está sendo alterado as permissões
+devido a descuidos conseguimos bloquear a nossa permissão para acessar a maquina e perdemos o trabalho por completo por não conseguir logar mais, apenas isso.
+
+Não use chmod sem supervisão, agradeço pela atenção.
